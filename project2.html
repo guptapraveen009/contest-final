@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Employee Management</title>
+ <link rel="stylesheet" href="project2.css">
+</head>
+<body>
+  <h2>Add Employee</h2>
+  
+  <form id="employeeForm">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+    <br>
+    
+    <label for="profession">Profession:</label>
+    <input type="text" id="profession" name="profession" required>
+    <br>
+    
+    <label for="age">Age:</label>
+    <input type="number" id="age" name="age" required>
+    <br>
+</form>
+<br>
+  <button type="button" onclick="addEmployee()">Add Employee</button>
+  <p id="message"></p>
+  
+  <h3>Added Employees</h3>
+  <div id="employeeList" class="employee-list">
+  </div>
+  
+</body>
+<script src="script2.js"></script>
+</html>
+
+
+
